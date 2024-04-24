@@ -43,8 +43,8 @@
 // Calcule e imprima a média aritmética dos valores contidos no array.//pronto
 // Com base no código que acabou de gerar, referente ao cálculo da média aritmética, faça com que://pronto
 // caso o valor final seja maior que 20, imprima a mensagem “O valor da média aritmética é maior que 20”;//pronto
-// caso não seja maior que 20, imprima a mensagem “O valor da média aritmética é menor ou igual a 20”.
-// Descubra o maior valor contido no array e imprima-o.
+// caso não seja maior que 20, imprima a mensagem “O valor da média aritmética é menor ou igual a 20”.//pronto
+// Descubra o maior valor contido no array e imprima-o.//pronto
 // Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “Nenhum valor ímpar encontrado”.
 
 const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
@@ -53,12 +53,6 @@ const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //     console.log(numbers[numero]);
 // }//[0]
 
-let maiorNumero = 0;
-for (let indice = 0; indice < numbers.length; indice += 1) {
-    maiorNumero += numbers[indice];
-    const c = numbers[indice];
-    console.log(c);
-}
 // let soma = 0;
 // for (let indice = 0; indice < numbers.length; indice += 1) {
 //     soma += numbers[indice];
@@ -69,3 +63,12 @@ for (let indice = 0; indice < numbers.length; indice += 1) {
 // } else {
 // console.log('o valor da media aritimetica e menor ou igual a 20');
 // }
+            
+let maiorNumero = 0;
+for (let indice = 0; indice < numbers.length; indice += 1) {
+    const c = numbers[indice];
+    if (maiorNumero <= c) {
+        maiorNumero = numbers[indice]
+    }
+}
+console.log(maiorNumero);
