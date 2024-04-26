@@ -46,12 +46,11 @@
 // caso não seja maior que 20, imprima a mensagem “O valor da média aritmética é menor ou igual a 20”.//pronto
 // Descubra o maior valor contido no array e imprima-o.//pronto
 // Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “Nenhum valor ímpar encontrado”.
-
-const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // for (let numero = 0; numero < numbers.length; numero += 1) {
 //     console.log(numbers[numero]);
-// }//[0]
+// }
 
 // let soma = 0;
 // for (let indice = 0; indice < numbers.length; indice += 1) {
@@ -63,12 +62,10 @@ const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // } else {
 // console.log('o valor da media aritimetica e menor ou igual a 20');
 // }
-            
-let maiorNumero = 0;
-for (let indice = 0; indice < numbers.length; indice += 1) {
-    const c = numbers[indice];
-    if (maiorNumero <= c) {
-        maiorNumero = numbers[indice]
-    }
-}
-console.log(maiorNumero);
+// let total = 0;
+// for (let paginas = 0; paginas < numbers.length; paginas += 1) {
+//     if (numbers[paginas] % 2 === 1) {
+//         total += 1;
+//     }
+// }
+// console.log(total);
