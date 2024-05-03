@@ -69,3 +69,10 @@
 //     }
 // }
 // console.log(total);
+
+// const numero = 15;
+// let numbers = 1;
+// for (let index = 1; index <= numero; index += 1) {
+//     numbers *= index;    
+// }
+// console.log(numbers);
