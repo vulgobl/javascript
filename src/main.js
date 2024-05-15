@@ -76,3 +76,7 @@
 //     numbers *= index;    
 // }
 // console.log(numbers);
+const str = 'banana';
+const chars = str.split('');
+chars.reverse();
+console.log(chars.join(''));
