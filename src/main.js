@@ -76,7 +76,17 @@
 //     numbers *= index;    
 // }
 // console.log(numbers);
-const str = 'banana';
-const chars = str.split('');
-chars.reverse();
-console.log(chars.join(''));
+// const str = 'banana';
+// const chars = str.split('');
+// chars.reverse();
+// console.log(chars.join('')
+
+// const n = 5;
+// let f = '';
+
+// for (let gg = 0; gg < n; gg += 1) {
+//     f += '*';
+// }
+// for (let bl = 0; bl < n; bl += 1) {
+//     console.log(f);
+// }
