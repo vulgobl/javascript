@@ -81,12 +81,30 @@
 // chars.reverse();
 // console.log(chars.join('')
 
-// const n = 5;
+// const n = 4;
 // let f = '';
-
-// for (let gg = 0; gg < n; gg += 1) {
-//     f += '*';
-// }
 // for (let bl = 0; bl < n; bl += 1) {
+//     f += '*';
 //     console.log(f);
+// }
+// const n = 9;
+// let f = '';
+// let quantidadeEspacos;
+// for (let bl = 1; bl < n; bl += 1) {
+//     quantidadeEspacos = n - bl;  
+//     f += '*';
+//     console.log(quantidadeEspacos);
+// }
+
+// const n = 5;
+// for (let bl = 1; bl <= n; bl += 1) {
+//     let linha = '';
+//     const espacos = n - bl;
+//     for (let index = 0; index < espacos; index += 1) {
+//         linha += ' ';
+//     }
+//     for (let index = 0; index < bl; index += 1) {
+//         linha += '*';
+//     }
+//     console.log(linha);
 // }
