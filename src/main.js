@@ -108,3 +108,82 @@
 //     }
 //     console.log(linha);
 // }
+
+// function invertePalavra(palavra) {
+//     let resultado = '';
+//     for (let indice = 0; indice < palavra.length; indice += 1) {
+//         resultado = palavra[indice] + resultado;
+//     }
+//     return resultado;
+// }
+// const palavraInvertida = invertePalavra('ola, mundo');
+// console.log(palavraInvertida);
+
+// function reverterPalavra(praticando) {
+//     const chars = praticando.split('');
+//     chars.reverse();
+//     return chars.join('');
+// }
+
+// // console.log(reverterPalavra('bl lindo'));
+// function palindromos(frase) {
+//     const regex = / /g;
+//     let salvamento = frase.replace(regex, '');
+//     salvamento = salvamento.toLowerCase();
+//     const salvamentoInvertido = reverterPalavra(salvamento);
+//     if (salvamento === salvamentoInvertido) {
+//         return true;
+//     }
+//     return false;
+// }
+
+// console.log(palindromos('Amor a Roma'));
+// Crie uma função, que recebe uma lista, de palavras e retorna o índice da palavra maior.
+// function maiorIndice(frases) {
+//     let maiorFrase = 0;
+//     for (let i = 0; i < frases.length; i += 1) {
+//         if (frases[i].length >= frases[maiorFrase].length) {
+//             maiorFrase = i;
+//         }
+//     }
+//     return maiorFrase;
+// }
+// console.log(maiorIndice(['oi', 'tudo bem', 'o']));
+// function menorIndice(frases) {
+//     let menorFrase = 0;
+//     for (let i = 0; i < frases.length; i += 1) {
+//         if (frases[i].length <= frases[menorFrase].length) {
+//             menorFrase = i;
+//         }
+//     }
+//     return menorFrase;
+// }
+// console.log(menorIndice(['oi', 'tudo bem', 'o000000000']));
+
+// function obterMaiorString(listaFrases) {
+//     let maiorFrase = '';
+//     for (let i = 0; i < listaFrases.length; i += 1) {
+//         const fraseAtual = listaFrases[i];
+//         if (fraseAtual.length > maiorFrase.length) {
+//             maiorFrase = fraseAtual;
+//         }
+//     }
+//     return maiorFrase;
+// }
+
+// console.log(obterMaiorString(['oi', 'tudo bem', '11']));
+
+// Crie uma função que recebe uma lista de palavras e retorna quantas vezes a palavra maior aparece.
+
+// function returnVezes(listaFrases) {
+//     let memoria = 0;
+//     const maiorFrase = obterMaiorString(listaFrases);
+//     for (let index = 0; index < listaFrases.length; index += 1) {
+//         if (listaFrases[index] === maiorFrase) {
+//             memoria += 1;
+//         } 
+//     }
+//     return memoria;
+// }
+
+// console.log(returnVezes(['oi', 'Hop!!!', 'tudo bem', 'tudo bem', 'mundo', 'tudo bem', '11'])); // 2
