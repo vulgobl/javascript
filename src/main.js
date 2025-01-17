@@ -73,7 +73,7 @@
 // const numero = 15;
 // let numbers = 1;
 // for (let index = 1; index <= numero; index += 1) {
-//     numbers *= index;    
+//     numbers *= index;
 // }
 // console.log(numbers);
 // const str = 'banana';
@@ -91,7 +91,7 @@
 // let f = '';
 // let quantidadeEspacos;
 // for (let bl = 1; bl < n; bl += 1) {
-//     quantidadeEspacos = n - bl;  
+//     quantidadeEspacos = n - bl;
 //     f += '*';
 //     console.log(quantidadeEspacos);
 // }
@@ -181,13 +181,12 @@
 //     for (let index = 0; index < listaFrases.length; index += 1) {
 //         if (listaFrases[index] === maiorFrase) {
 //             memoria += 1;
-//         } 
+//         }
 //     }
 //     return memoria;
 // }
 
 // console.log(returnVezes(['oi', 'Hop!!!', 'tudo bem', 'tudo bem', 'mundo', 'tudo bem', '11'])); // 2
-
 // const reader = {
 //     name: 'Julia',
 //     lastName: 'Pessoa',
@@ -211,3 +210,49 @@
 //         reader.favoriteBooks.length
 //     } livros favoritos.`,
 // );
+
+// const order = {
+//     name: 'Luiz Silva',
+//     phoneNumber: '11-98763-1416',
+//     address: {
+//         street: 'Rua das Flores',
+//         number: '389',
+//         apartment: '701',
+//     },
+//     order: {
+//         pizza: {
+//             marguerita: {
+//                 amount: 1,
+//                 price: 25,
+//             },
+//             pepperoni: {
+//                 amount: 1,
+//                 price: 20,
+//             },
+//         },
+//         drinks: {
+//             coke: {
+//                 type: 'Coca-Cola Zero',
+//                 price: 10,
+//                 amount: 1,
+//             },
+//         },
+//         delivery: {
+//             deliveryPerson: 'Ana Silveira',
+//             price: 5,
+//         },
+//     },
+//     payment: {
+//         total: 50,
+//     },
+// };
+
+// // const customerInfo = (fullOrder) => `ola,${fullOrder.order.delivery.deliveryPerson}, entrega para: ${fullOrder.name}, telefone: ${fullOrder.phoneNumber}, ${fullOrder.address.street}, numero: ${fullOrder.address.number}, ap ${fullOrder.address.apartment}.`;
+
+// // console.log(customerInfo(order));
+
+// // const orderModifier = (fullOrder) =>
+// //     `ola,${fullOrder.name}, o valor total de seu pedido de ${Object.keys(fullOrder.order.pizza)} e ${fullOrder.order.drinks.coke.type} e de R$${fullOrder.payment.total}`;
+
+// // console.log(orderModifier(order));
+
