@@ -256,3 +256,59 @@
 
 // // console.log(orderModifier(order));
 
+// const school = {
+//     lessons: [
+//         {
+//             course: 'Python',
+//             students: 20,
+//             professor: 'Carlos Patrício',
+//             shift: 'Manhã',
+//         },
+//         {
+//             course: 'Kotlin',
+//             students: 10,
+//             professor: 'Gabriel Oliva',
+//             shift: 'Noite',
+//         },
+//         {
+//             course: 'MongoDB',
+//             students: 50,
+//             shift: 'Noite',
+//         },
+//         {
+//             course: 'JavaScript',
+//             students: 738,
+//             professor: 'Gustavo Caetano',
+//             shift: 'Tarde',
+//         },
+//     ],
+// };
+
+// function selectCourseValues(object, index) {
+//     return Object.vales(object.lessons[index]);
+// }
+
+// console.log(selectCourseValues(school, 2));
+// function somaEstudantes(object) {
+//     let soma = 0;
+//     for (let index = 0; index < object.lessons.length; index += 1) {
+//         soma += object.lessons[index].students;
+//     }
+//     return soma;
+// }
+
+// console.log(somaEstudantes(school));
+
+// function hasKeyInAll(object, key) {
+//     let resultado;
+//     for (let index = 0; index < object.lessons.length; index += 1) {
+//         resultado = Object.keys(object.lessons[index]).includes(key);
+//         if (resultado === false) {
+//             break;
+//         }
+//     }
+//     return resultado;
+// }
+
+// console.log(hasKeyInAll(school, 'course'));
+// // string 'algo'
